@@ -67,12 +67,15 @@ p {
 
 .bg-light{
     background: #f4f4f4;
-    color:#fff;
+    color:#333;
 }
 
 .bg-primary{
-    background: #333; 
-    color: #f7c08a;
+    background:#f7c08a; 
+    color:  #333;
+}
+.clr{
+    clear: both;
 }
 /* Navbar */
 #navbar {
@@ -154,4 +157,43 @@ p {
 
 #home-info .info-content p{
     padding-bottom: 30px;
+}
+
+/* Features */
+.box{
+    float: left;
+    width:33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+/*About info  */
+
+#about-info .info-right{
+    float: right;
+    width: 50%; 
+    min-height: 100%
+}
+
+#about-info .info-right img{
+    display: block;
+    margin:auto;
+    width: 70%; 
+}
+
+#about-info .info-left{
+    float:left;
+    width: 50%;
+    min-height: 100%;
+}
+/* Footer */
+#main-footer{
+    text-align: center;
+    background:#444;
+    color:#fff;
+    padding:20px;
 }
